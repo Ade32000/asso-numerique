@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg
+PUBLIC "-//W3C//DTD SVG 1.1//EN"
+       "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg viewBox="46 23 906 293" width="860px" height="270px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <line x1="531" y1="268" x2="541" y2="268" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="707" y1="70" x2="717" y2="70" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="541" y1="268" x2="707" y2="70" style="stroke:#0bf;stroke-width:1;"/>
+   <line x1="538.5" y1="268" x2="534.96446609407" y2="271.53553390593" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="538.5" y1="268" x2="534.96446609407" y2="264.46446609407" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="712" y1="70" x2="708.46446609407" y2="73.535533905933" style="stroke:#0bf;stroke-width:2;"/>
+   <line x1="712" y1="70" x2="708.46446609407" y2="66.464466094067" style="stroke:#0bf;stroke-width:2;"/>
+   <rect width="127" height="20" x="61" y="38" style="fill:#007;stroke:black;"/>
+   <text width="127" height="20" x="66" y="52" style="fill:#fff;" font-family="Arial" font-size="16px"> admin</text>
+   <rect width="127" height="20" x="61" y="58" style="fill:#aea;stroke:black;"/>
+   <text width="127" height="20" x="66" y="72" style="fill:black;" font-family="Arial" font-size="16px">admin_id</text>
+   <rect width="127" height="20" x="61" y="78" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="66" y="92" style="fill:black;" font-family="Arial" font-size="16px">admin_login</text>
+   <rect width="127" height="20" x="61" y="98" style="fill:none;stroke:black;"/>
+   <text width="127" height="20" x="66" y="112" style="fill:black;" font-family="Arial" font-size="16px">admin_password</text>
+   <rect width="174" height="20" x="717" y="40" style="fill:#007;stroke:black;"/>
+   <text width="174" height="20" x="722" y="54" style="fill:#fff;" font-family="Arial" font-size="16px"> survey</text>
+   <rect width="174" height="20" x="717" y="60" style="fill:#aea;stroke:black;"/>
+   <text width="174" height="20" x="722" y="74" style="fill:black;" font-family="Arial" font-size="16px">survey_id</text>
+   <rect width="174" height="20" x="717" y="80" style="fill:none;stroke:black;"/>
+   <text width="174" height="20" x="722" y="94" style="fill:black;" font-family="Arial" font-size="16px">survey_anonymous</text>
+   <rect width="174" height="20" x="717" y="100" style="fill:none;stroke:black;"/>
+   <text width="174" height="20" x="722" y="114" style="fill:black;" font-family="Arial" font-size="16px">survey_depTime</text>
+   <rect width="174" height="20" x="717" y="120" style="fill:none;stroke:black;"/>
+   <text width="174" height="20" x="722" y="134" style="fill:black;" font-family="Arial" font-size="16px">survey_prefer</text>
+   <rect width="174" height="20" x="717" y="140" style="fill:none;stroke:black;"/>
+   <text width="174" height="20" x="722" y="154" style="fill:black;" font-family="Arial" font-size="16px">survey_contact</text>
+   <rect width="174" height="20" x="717" y="160" style="fill:none;stroke:black;"/>
+   <text width="174" height="20" x="722" y="174" style="fill:black;" font-family="Arial" font-size="16px">survey_preferComment</text>
+   <rect width="174" height="20" x="717" y="180" style="fill:none;stroke:black;"/>
+   <text width="174" height="20" x="722" y="194" style="fill:black;" font-family="Arial" font-size="16px">survey_visitorEmail</text>
+   <rect width="174" height="20" x="717" y="200" style="fill:none;stroke:black;"/>
+   <text width="174" height="20" x="722" y="214" style="fill:black;" font-family="Arial" font-size="16px">survey_available</text>
+   <rect width="174" height="20" x="717" y="220" style="fill:none;stroke:black;"/>
+   <text width="174" height="20" x="722" y="234" style="fill:black;" font-family="Arial" font-size="16px">survey_visitorPhone</text>
+   <rect width="174" height="20" x="717" y="240" style="fill:none;stroke:black;"/>
+   <text width="174" height="20" x="722" y="254" style="fill:black;" font-family="Arial" font-size="16px">survey_expectations</text>
+   <rect width="177" height="20" x="354" y="38" style="fill:#007;stroke:black;"/>
+   <text width="177" height="20" x="359" y="52" style="fill:#fff;" font-family="Arial" font-size="16px"> visitor</text>
+   <rect width="177" height="20" x="354" y="58" style="fill:#aea;stroke:black;"/>
+   <text width="177" height="20" x="359" y="72" style="fill:black;" font-family="Arial" font-size="16px">visitor_id</text>
+   <rect width="177" height="20" x="354" y="78" style="fill:none;stroke:black;"/>
+   <text width="177" height="20" x="359" y="92" style="fill:black;" font-family="Arial" font-size="16px">visitor_civility</text>
+   <rect width="177" height="20" x="354" y="98" style="fill:none;stroke:black;"/>
+   <text width="177" height="20" x="359" y="112" style="fill:black;" font-family="Arial" font-size="16px">visitor_firstName</text>
+   <rect width="177" height="20" x="354" y="118" style="fill:none;stroke:black;"/>
+   <text width="177" height="20" x="359" y="132" style="fill:black;" font-family="Arial" font-size="16px">visitor_lastName</text>
+   <rect width="177" height="20" x="354" y="138" style="fill:none;stroke:black;"/>
+   <text width="177" height="20" x="359" y="152" style="fill:black;" font-family="Arial" font-size="16px">visitor_status</text>
+   <rect width="177" height="20" x="354" y="158" style="fill:none;stroke:black;"/>
+   <text width="177" height="20" x="359" y="172" style="fill:black;" font-family="Arial" font-size="16px">visitor_business</text>
+   <rect width="177" height="20" x="354" y="178" style="fill:none;stroke:black;"/>
+   <text width="177" height="20" x="359" y="192" style="fill:black;" font-family="Arial" font-size="16px">visitor_position</text>
+   <rect width="177" height="20" x="354" y="198" style="fill:none;stroke:black;"/>
+   <text width="177" height="20" x="359" y="212" style="fill:black;" font-family="Arial" font-size="16px">visitor_city</text>
+   <rect width="177" height="20" x="354" y="218" style="fill:none;stroke:black;"/>
+   <text width="177" height="20" x="359" y="232" style="fill:black;" font-family="Arial" font-size="16px">visitor_placeKnowEvent</text>
+   <rect width="177" height="20" x="354" y="238" style="fill:none;stroke:black;"/>
+   <text width="177" height="20" x="359" y="252" style="fill:black;" font-family="Arial" font-size="16px">visitor_arrTime</text>
+   <rect width="177" height="20" x="354" y="258" style="fill:none;stroke:black;"/>
+   <text width="177" height="20" x="359" y="272" style="fill:black;" font-family="Arial" font-size="16px">fk_survey</text>
+</svg>
