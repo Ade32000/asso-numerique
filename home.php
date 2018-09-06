@@ -1,57 +1,95 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
-	<title>Home</title>
-</head>
-<body>
-
-	<div id="home">
-		<form action="" method="POST">
-			<button type="submit" class="home" name="registerPage">INSCRIPTION</button>
-
-
 			<?php 
+
+			ini_set('display_errors', 1);
+
+
 
 // at the click of the inscription button, we generate the interface by calling the class
 
 			if (isset($_POST['registerPage'])) {
+
+				require "GenerInterface.class.php";
+				$visitorInterface = new GenerInterface();
 				
-				require_once "Interface.class.php";
-				$visitorRegister = new Interface;
-				$visitorRegister->registerPage();
+				$visitorInterface->RegisterPage();
 
 
 				// We retrieve the data entered by the visitor and send them to the database with the class method
 
-				if(isset($_POST['register'])){
+			}
 
-					require_once "Visitor.class.php";
+					require 'database.php';
 
-					$civility = $_POST['civility'];
+				if(isset($_POST['register']))
+				{
+
+					require "Visitor.class.php";
+
+
+						foreach($_POST['civility'] as $valeur)
+						{
+						   echo "hey" . $valeur . "heyy";
+						   //return $valeur;
+						}
+
+					$civility = $valeur; 
+						
 					$firstName = $_POST['firstName'];
 					$lastName = $_POST['lastName'];
-					$status = $_POST['status'];
+
+						foreach($_POST['status'] as $value)
+						{
+						   echo "ok" . $value . "okok";
+						   //return $value;
+						}
+
+
+					$status = $value;
+
 					$business = $_POST['business'];
 					$position = $_POST['position'];
 					$city = $_POST['city'];
 					$placeKnowEvent = $_POST['placeKnowEvent'];
 
+				
 
 					$visitor = new Visitor($civility, $firstName, $lastName, $status, $business, $position, $city, $placeKnowEvent);
 
 					$visitor->databaseRegister();
 
-				}
+					}
+ 				
+
+
+
+
+			if (isset($_POST['survey'])) {
+
+				require "GenerInterface.class.php";
+
+				$surveyInterface = new GenerInterface();
+				
+				// $surveyInterface->DisplayCss();
+
+				$surveyInterface->SurveyForm();
+
+
+			}
+
+			if (isset($_POST['adminAcces'])) {
+
+				require "GenerInterface.class.php";
+
+				$adminAcces = new GenerInterface();
+				
+				// $surveyInterface->DisplayCss();
+
+				$adminAcces->ConnectForm();
+
+
 			}
 
 			?>
 
 
-			<button type="submit" class="home" name="survey">QUESTIONNAIRE</button>
-			<button type="submit" class="home" name="adminAcces">ACCES ADMIN</button>
-		</form>
-	</div>
-</body>
-</html>
+			

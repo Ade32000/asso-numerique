@@ -29,38 +29,37 @@ class Visitor
 		$this->placeKnowEvent = $placeKnowEvent;
 	}
 
-	function databaseRegister(){
+	function databaseRegister()
+	{
+		require "database.php";
 
+            $req = $db->prepare('INSERT INTO visitor(visitor_civility,visitor_firstName,visitor_lastName,visitor_status,visitor_business,visitor_position,visitor_city,visitor_placeKnowEvent)
 
-        //     $req = $db->prepare('INSERT INTO visitor(visitor_civility,visitor_firstName,visitor_lastName,product_place,product_description,product_size,product_weight,product_reference,product_state)
+                    VALUES (:visitor_civility,:visitor_firstName,:visitor_lastName,:visitor_status,:visitor_business,:visitor_position,:visitor_city,:visitor_placeKnowEvent)');
 
-        //             VALUES (:product_name,:product_price,:product_stock,:product_place,:product_description,:product_size,:product_weight,:product_reference,:product_state)');
+            $req->execute(array(
 
-        //     $req->execute(array(
+                ':visitor_civility' => $this->civility,
 
-        //         ':product_name' => $product_name,
+                ':visitor_firstName' => $this->firstName,
 
-        //         ':product_price' => $product_price,
+                ':visitor_lastName' => $this->lastName,
 
-        //         ':product_stock' => $product_stock,
+                ':visitor_status' => $this->status,
 
-        //         ':product_place' => $product_place,
+                ':visitor_business' => $this->business,
 
-        //         ':product_description' => $product_description,
+                ':visitor_position' => $this->position,
 
-        //         ':product_size' => $product_size,
+                ':visitor_city' => $this->city,
 
-        //         ':product_weight' => $product_weight,
+                ':visitor_placeKnowEvent' => $this->placeKnowEvent
 
-        //         ':product_reference' => $product_reference,
+                ));
 
-        //         ':product_state' => $product_state
+            return $req;
 
-        //         ));
-
-        //     return $req;
-
-        // }
+        
 	}
 }
 
